@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1927,6 +1927,83 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &341758031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 341758034}
+  - component: {fileID: 341758033}
+  - component: {fileID: 341758032}
+  m_Layer: 0
+  m_Name: CustomizablePowerUp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &341758032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341758031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc423992dbbf6c469f5c767af90da51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &341758033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341758031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51803f42c5ad6ed469cd71e4b4e0dec0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpName: Dollar PowerUp
+  isTakeable: 1
+  pickUpSound: {fileID: 8300000, guid: a4a9327e98855524c846cc8e2f559e96, type: 3}
+  externHull: {fileID: 120638, guid: f8efad34b6fb67641a44679362c8f942, type: 3}
+  externHullRotSpeed: 65
+  externHullIsReverse: 0
+  externHullMaterial: {fileID: 2100000, guid: 02758698f6605d345a67239c79c069b6, type: 2}
+  internHull: {fileID: 116466, guid: 149a83b3d7325574581f93b92f7e7746, type: 3}
+  internHullRotSpeed: 65
+  internHullIsReverse: 1
+  internHullMaterial: {fileID: 2100000, guid: 78b3d2607f4c8c843b131bd40468e68a, type: 2}
+  effect: {fileID: 100000, guid: 54d548b1a922d54449e2bd5424597d57, type: 3}
+  effectRotSpeed: 65
+  effectIsReverse: 0
+  item: {fileID: 100000, guid: d775a3112327f234c884d35e82436c83, type: 3}
+  itemRotSpeed: 65
+  itemIsReverse: 0
+  itemMaterial: {fileID: 2100000, guid: 64f4603d589ad9b4fb378d4977c03317, type: 2}
+  lightColor: {r: 0.38235295, g: 0.41217044, b: 1, a: 1}
+  lightIntensity: 3
+  lightRange: 4
+--- !u!4 &341758034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341758031}
+  m_LocalRotation: {x: -0, y: -0.6185067, z: -0, w: 0.78577954}
+  m_LocalPosition: {x: 83, y: 8, z: 9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &347123223
 GameObject:
   m_ObjectHideFlags: 0
@@ -1989,6 +2066,83 @@ Transform:
   - {fileID: 226313193}
   m_Father: {fileID: 582003979}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &398995870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 398995873}
+  - component: {fileID: 398995872}
+  - component: {fileID: 398995871}
+  m_Layer: 0
+  m_Name: CustomizablePowerUp 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &398995871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398995870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc423992dbbf6c469f5c767af90da51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &398995872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398995870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51803f42c5ad6ed469cd71e4b4e0dec0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpName: Flame
+  isTakeable: 1
+  pickUpSound: {fileID: 8300000, guid: a4a9327e98855524c846cc8e2f559e96, type: 3}
+  externHull: {fileID: 120638, guid: f8efad34b6fb67641a44679362c8f942, type: 3}
+  externHullRotSpeed: 65
+  externHullIsReverse: 0
+  externHullMaterial: {fileID: 2100000, guid: 02758698f6605d345a67239c79c069b6, type: 2}
+  internHull: {fileID: 116466, guid: 149a83b3d7325574581f93b92f7e7746, type: 3}
+  internHullRotSpeed: 65
+  internHullIsReverse: 1
+  internHullMaterial: {fileID: 2100000, guid: 977b6d7a9501307478a6fab8d0743ae9, type: 2}
+  effect: {fileID: 100000, guid: bc0290eb454386141a1f4a4cf6a5c25b, type: 3}
+  effectRotSpeed: 0
+  effectIsReverse: 0
+  item: {fileID: 0}
+  itemRotSpeed: 0
+  itemIsReverse: 0
+  itemMaterial: {fileID: 0}
+  lightColor: {r: 0.38235295, g: 0.84665304, b: 1, a: 1}
+  lightIntensity: 3
+  lightRange: 4
+--- !u!4 &398995873
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398995870}
+  m_LocalRotation: {x: -0, y: -0.6185067, z: -0, w: 0.78577954}
+  m_LocalPosition: {x: 82.51, y: 8, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &432299532
 GameObject:
@@ -5701,6 +5855,83 @@ Transform:
   - {fileID: 1653310144}
   m_Father: {fileID: 231821854}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1068113148
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1068113151}
+  - component: {fileID: 1068113150}
+  - component: {fileID: 1068113149}
+  m_Layer: 0
+  m_Name: CustomizablePowerUp 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1068113149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068113148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc423992dbbf6c469f5c767af90da51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1068113150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068113148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51803f42c5ad6ed469cd71e4b4e0dec0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpName: Spark
+  isTakeable: 1
+  pickUpSound: {fileID: 8300000, guid: a4a9327e98855524c846cc8e2f559e96, type: 3}
+  externHull: {fileID: 120638, guid: f8efad34b6fb67641a44679362c8f942, type: 3}
+  externHullRotSpeed: 65
+  externHullIsReverse: 0
+  externHullMaterial: {fileID: 2100000, guid: e80bf5945c9e01b4a8180c7fa7860a0f, type: 2}
+  internHull: {fileID: 116466, guid: 149a83b3d7325574581f93b92f7e7746, type: 3}
+  internHullRotSpeed: 65
+  internHullIsReverse: 1
+  internHullMaterial: {fileID: 2100000, guid: 02758698f6605d345a67239c79c069b6, type: 2}
+  effect: {fileID: 100000, guid: c2204c8be58cfc341a8cc5f6d3d0897e, type: 3}
+  effectRotSpeed: 0
+  effectIsReverse: 0
+  item: {fileID: 0}
+  itemRotSpeed: 0
+  itemIsReverse: 0
+  itemMaterial: {fileID: 0}
+  lightColor: {r: 1, g: 0.38235295, b: 0.9062879, a: 1}
+  lightIntensity: 3
+  lightRange: 4
+--- !u!4 &1068113151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068113148}
+  m_LocalRotation: {x: -0, y: -0.6185067, z: -0, w: 0.78577954}
+  m_LocalPosition: {x: 82.51, y: 7.38, z: 1.79}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1120797218
 GameObject:
@@ -11455,7 +11686,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-141000
+  m_Name: pb_Mesh36956
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
