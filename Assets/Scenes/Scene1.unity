@@ -3760,16 +3760,16 @@ MonoBehaviour:
   rotateByWorld: 0
   useContinuousSprint: 1
   sprintOnlyFree: 1
-  locomotionType: 0
+  locomotionType: 2
   freeSpeed:
     movementSmooth: 6
     animationSmooth: 0.2
     rotationSpeed: 16
     walkByDefault: 0
-    rotateWithCamera: 0
+    rotateWithCamera: 1
     walkSpeed: 2
-    runningSpeed: 4
-    sprintSpeed: 6
+    runningSpeed: 6
+    sprintSpeed: 10
   strafeSpeed:
     movementSmooth: 6
     animationSmooth: 0.2
@@ -3782,8 +3782,8 @@ MonoBehaviour:
   jumpWithRigidbodyForce: 0
   jumpAndRotate: 1
   jumpTimer: 0.3
-  jumpHeight: 4
-  airSpeed: 5
+  jumpHeight: 5.5
+  airSpeed: 8
   airSmooth: 6
   extraGravity: -10
   limitFallVelocity: -15
