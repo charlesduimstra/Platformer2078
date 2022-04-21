@@ -39,12 +39,12 @@ public class PowerUpManager : Singleton<PowerUpManager>
 		foreach(CustomizablePowerUp pu in powerUpsLogs) {
 			GUILayout.BeginHorizontal();
 			GUILayout.BeginVertical();
-			GUILayout.Label("You picked up <color=" + RGBToHex(pu.lightColor) + ">" + pu.powerUpName + "</color>");
+			GUILayout.Label("You picked up <color=green>" + pu.powerUpName + "</color>");
 			GUILayout.EndVertical();
 			GUILayout.EndHorizontal();
 		}
 
-		GUI.Label(new Rect(Screen.width - 180, 0, 180, 20), "PowerUp count: <color=yellow>" + this.powerUps.Count + " / 10" + "</color>");
+		GUI.Label(new Rect(Screen.width - 180, 0, 180, 20), "Money Gathered: <color=green>" + this.powerUps.Count + " / 10" + "</color>");
 		if(this.powerUps.Count >= 10) {
 			GUILayout.Label("You Win!");
 		}
