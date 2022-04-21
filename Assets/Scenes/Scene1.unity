@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3820,7 +3820,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 161653416}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 117, y: 3, z: 0}
+  m_LocalPosition: {x: 134.15, y: 3, z: -16.34}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 757221544}
@@ -4226,6 +4226,83 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 50e8d87218c9f9649975e35ca3232d32, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+--- !u!1 &177584663
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 177584664}
+  - component: {fileID: 177584666}
+  - component: {fileID: 177584665}
+  m_Layer: 0
+  m_Name: PowerUp5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &177584664
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177584663}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -52.187805, y: 4.72295, z: -14.250618}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1075551805}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &177584665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177584663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc423992dbbf6c469f5c767af90da51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &177584666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177584663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51803f42c5ad6ed469cd71e4b4e0dec0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpName: Money
+  isTakeable: 1
+  pickUpSound: {fileID: 8300000, guid: a4a9327e98855524c846cc8e2f559e96, type: 3}
+  externHull: {fileID: 120638, guid: f8efad34b6fb67641a44679362c8f942, type: 3}
+  externHullRotSpeed: 65
+  externHullIsReverse: 0
+  externHullMaterial: {fileID: 2100000, guid: 977b6d7a9501307478a6fab8d0743ae9, type: 2}
+  internHull: {fileID: 116466, guid: 149a83b3d7325574581f93b92f7e7746, type: 3}
+  internHullRotSpeed: 65
+  internHullIsReverse: 1
+  internHullMaterial: {fileID: 2100000, guid: 78b3d2607f4c8c843b131bd40468e68a, type: 2}
+  effect: {fileID: 100000, guid: 54d548b1a922d54449e2bd5424597d57, type: 3}
+  effectRotSpeed: 65
+  effectIsReverse: 0
+  item: {fileID: 100000, guid: d775a3112327f234c884d35e82436c83, type: 3}
+  itemRotSpeed: 65
+  itemIsReverse: 0
+  itemMaterial: {fileID: 2100000, guid: cc5b20b4307519e40bdcc830c0b39d44, type: 2}
+  lightColor: {r: 0.38235295, g: 0.41217044, b: 1, a: 1}
+  lightIntensity: 3
+  lightRange: 4
 --- !u!4 &181089282 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -7706,6 +7783,83 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 4a11ac89ec3635a4b896556552983d54, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
+--- !u!1 &335739287
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 335739288}
+  - component: {fileID: 335739290}
+  - component: {fileID: 335739289}
+  m_Layer: 0
+  m_Name: PowerUp10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &335739288
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335739287}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -62.717804, y: -0.84804964, z: 21.870382}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1075551805}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &335739289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335739287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc423992dbbf6c469f5c767af90da51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &335739290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335739287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51803f42c5ad6ed469cd71e4b4e0dec0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpName: Money
+  isTakeable: 1
+  pickUpSound: {fileID: 8300000, guid: a4a9327e98855524c846cc8e2f559e96, type: 3}
+  externHull: {fileID: 120638, guid: f8efad34b6fb67641a44679362c8f942, type: 3}
+  externHullRotSpeed: 65
+  externHullIsReverse: 0
+  externHullMaterial: {fileID: 2100000, guid: 977b6d7a9501307478a6fab8d0743ae9, type: 2}
+  internHull: {fileID: 116466, guid: 149a83b3d7325574581f93b92f7e7746, type: 3}
+  internHullRotSpeed: 65
+  internHullIsReverse: 1
+  internHullMaterial: {fileID: 2100000, guid: 78b3d2607f4c8c843b131bd40468e68a, type: 2}
+  effect: {fileID: 100000, guid: 54d548b1a922d54449e2bd5424597d57, type: 3}
+  effectRotSpeed: 65
+  effectIsReverse: 0
+  item: {fileID: 100000, guid: d775a3112327f234c884d35e82436c83, type: 3}
+  itemRotSpeed: 65
+  itemIsReverse: 0
+  itemMaterial: {fileID: 2100000, guid: cc5b20b4307519e40bdcc830c0b39d44, type: 2}
+  lightColor: {r: 0.38235295, g: 0.41217044, b: 1, a: 1}
+  lightIntensity: 3
+  lightRange: 4
 --- !u!1001 &337539665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12382,6 +12536,83 @@ Transform:
   m_Father: {fileID: 2124842489}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &547630092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 547630093}
+  - component: {fileID: 547630095}
+  - component: {fileID: 547630094}
+  m_Layer: 0
+  m_Name: PowerUp3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &547630093
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547630092}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -50.437805, y: 5.18295, z: 22.679382}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1075551805}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &547630094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547630092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc423992dbbf6c469f5c767af90da51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &547630095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547630092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51803f42c5ad6ed469cd71e4b4e0dec0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpName: Money
+  isTakeable: 1
+  pickUpSound: {fileID: 8300000, guid: a4a9327e98855524c846cc8e2f559e96, type: 3}
+  externHull: {fileID: 120638, guid: f8efad34b6fb67641a44679362c8f942, type: 3}
+  externHullRotSpeed: 65
+  externHullIsReverse: 0
+  externHullMaterial: {fileID: 2100000, guid: 977b6d7a9501307478a6fab8d0743ae9, type: 2}
+  internHull: {fileID: 116466, guid: 149a83b3d7325574581f93b92f7e7746, type: 3}
+  internHullRotSpeed: 65
+  internHullIsReverse: 1
+  internHullMaterial: {fileID: 2100000, guid: 78b3d2607f4c8c843b131bd40468e68a, type: 2}
+  effect: {fileID: 100000, guid: 54d548b1a922d54449e2bd5424597d57, type: 3}
+  effectRotSpeed: 65
+  effectIsReverse: 0
+  item: {fileID: 100000, guid: d775a3112327f234c884d35e82436c83, type: 3}
+  itemRotSpeed: 65
+  itemIsReverse: 0
+  itemMaterial: {fileID: 2100000, guid: cc5b20b4307519e40bdcc830c0b39d44, type: 2}
+  lightColor: {r: 0.38235295, g: 0.41217044, b: 1, a: 1}
+  lightIntensity: 3
+  lightRange: 4
 --- !u!1001 &548067956
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20029,6 +20260,83 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 4a11ac89ec3635a4b896556552983d54, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
+--- !u!1 &874798406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 874798407}
+  - component: {fileID: 874798409}
+  - component: {fileID: 874798408}
+  m_Layer: 0
+  m_Name: PowerUp6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &874798407
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874798406}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -103.74, y: -1.0570498, z: 4.3193817}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1075551805}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &874798408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874798406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc423992dbbf6c469f5c767af90da51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &874798409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874798406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51803f42c5ad6ed469cd71e4b4e0dec0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpName: Money
+  isTakeable: 1
+  pickUpSound: {fileID: 8300000, guid: a4a9327e98855524c846cc8e2f559e96, type: 3}
+  externHull: {fileID: 120638, guid: f8efad34b6fb67641a44679362c8f942, type: 3}
+  externHullRotSpeed: 65
+  externHullIsReverse: 0
+  externHullMaterial: {fileID: 2100000, guid: 977b6d7a9501307478a6fab8d0743ae9, type: 2}
+  internHull: {fileID: 116466, guid: 149a83b3d7325574581f93b92f7e7746, type: 3}
+  internHullRotSpeed: 65
+  internHullIsReverse: 1
+  internHullMaterial: {fileID: 2100000, guid: 78b3d2607f4c8c843b131bd40468e68a, type: 2}
+  effect: {fileID: 100000, guid: 54d548b1a922d54449e2bd5424597d57, type: 3}
+  effectRotSpeed: 65
+  effectIsReverse: 0
+  item: {fileID: 100000, guid: d775a3112327f234c884d35e82436c83, type: 3}
+  itemRotSpeed: 65
+  itemIsReverse: 0
+  itemMaterial: {fileID: 2100000, guid: cc5b20b4307519e40bdcc830c0b39d44, type: 2}
+  lightColor: {r: 0.38235295, g: 0.41217044, b: 1, a: 1}
+  lightIntensity: 3
+  lightRange: 4
 --- !u!4 &882351946 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -21406,6 +21714,83 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4147810860854550, guid: d9b3137296eb11547a955d82c9ffcc3b, type: 3}
   m_PrefabInstance: {fileID: 943715629}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &943737691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 943737692}
+  - component: {fileID: 943737694}
+  - component: {fileID: 943737693}
+  m_Layer: 0
+  m_Name: PowerUp9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &943737692
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943737691}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -50.850815, y: -0.26204967, z: -14.203617}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1075551805}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &943737693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943737691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc423992dbbf6c469f5c767af90da51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &943737694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943737691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51803f42c5ad6ed469cd71e4b4e0dec0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpName: Money
+  isTakeable: 1
+  pickUpSound: {fileID: 8300000, guid: a4a9327e98855524c846cc8e2f559e96, type: 3}
+  externHull: {fileID: 120638, guid: f8efad34b6fb67641a44679362c8f942, type: 3}
+  externHullRotSpeed: 65
+  externHullIsReverse: 0
+  externHullMaterial: {fileID: 2100000, guid: 977b6d7a9501307478a6fab8d0743ae9, type: 2}
+  internHull: {fileID: 116466, guid: 149a83b3d7325574581f93b92f7e7746, type: 3}
+  internHullRotSpeed: 65
+  internHullIsReverse: 1
+  internHullMaterial: {fileID: 2100000, guid: 78b3d2607f4c8c843b131bd40468e68a, type: 2}
+  effect: {fileID: 100000, guid: 54d548b1a922d54449e2bd5424597d57, type: 3}
+  effectRotSpeed: 65
+  effectIsReverse: 0
+  item: {fileID: 100000, guid: d775a3112327f234c884d35e82436c83, type: 3}
+  itemRotSpeed: 65
+  itemIsReverse: 0
+  itemMaterial: {fileID: 2100000, guid: cc5b20b4307519e40bdcc830c0b39d44, type: 2}
+  lightColor: {r: 0.38235295, g: 0.41217044, b: 1, a: 1}
+  lightIntensity: 3
+  lightRange: 4
 --- !u!1001 &944448759
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24883,6 +25268,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4093150761176514, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
   m_PrefabInstance: {fileID: 79238069}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1075551803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1075551805}
+  - component: {fileID: 1075551804}
+  m_Layer: 0
+  m_Name: PowerUpManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1075551804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075551803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0752d6a2d871854eb3657ea338d9b66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1075551805
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075551803}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 241.45781, y: 5.0570498, z: -20.749382}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1174478732}
+  - {fileID: 1936288605}
+  - {fileID: 547630093}
+  - {fileID: 1232247519}
+  - {fileID: 177584664}
+  - {fileID: 874798407}
+  - {fileID: 1535730910}
+  - {fileID: 1913763634}
+  - {fileID: 943737692}
+  - {fileID: 335739288}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1076768558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27400,6 +27838,83 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4093150761176514, guid: 42e949fded9304745a989ca004f5bf58, type: 3}
   m_PrefabInstance: {fileID: 1633623039}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1174478731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1174478732}
+  - component: {fileID: 1174478734}
+  - component: {fileID: 1174478733}
+  m_Layer: 0
+  m_Name: PowerUp1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1174478732
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174478731}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -51.603806, y: -0.55704975, z: 21.889381}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1075551805}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1174478733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174478731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc423992dbbf6c469f5c767af90da51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1174478734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174478731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51803f42c5ad6ed469cd71e4b4e0dec0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpName: Money
+  isTakeable: 1
+  pickUpSound: {fileID: 8300000, guid: a4a9327e98855524c846cc8e2f559e96, type: 3}
+  externHull: {fileID: 120638, guid: f8efad34b6fb67641a44679362c8f942, type: 3}
+  externHullRotSpeed: 65
+  externHullIsReverse: 0
+  externHullMaterial: {fileID: 2100000, guid: 977b6d7a9501307478a6fab8d0743ae9, type: 2}
+  internHull: {fileID: 116466, guid: 149a83b3d7325574581f93b92f7e7746, type: 3}
+  internHullRotSpeed: 65
+  internHullIsReverse: 1
+  internHullMaterial: {fileID: 2100000, guid: 78b3d2607f4c8c843b131bd40468e68a, type: 2}
+  effect: {fileID: 100000, guid: 54d548b1a922d54449e2bd5424597d57, type: 3}
+  effectRotSpeed: 65
+  effectIsReverse: 0
+  item: {fileID: 100000, guid: d775a3112327f234c884d35e82436c83, type: 3}
+  itemRotSpeed: 65
+  itemIsReverse: 0
+  itemMaterial: {fileID: 2100000, guid: cc5b20b4307519e40bdcc830c0b39d44, type: 2}
+  lightColor: {r: 0.38235295, g: 0.41217044, b: 1, a: 1}
+  lightIntensity: 3
+  lightRange: 4
 --- !u!1001 &1178482556
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28513,6 +29028,83 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
   m_PrefabInstance: {fileID: 484438858}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1232247518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1232247519}
+  - component: {fileID: 1232247521}
+  - component: {fileID: 1232247520}
+  m_Layer: 0
+  m_Name: PowerUp4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1232247519
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232247518}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -50.71881, y: 4.4529505, z: 6.949382}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1075551805}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1232247520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232247518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc423992dbbf6c469f5c767af90da51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1232247521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232247518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51803f42c5ad6ed469cd71e4b4e0dec0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpName: Money
+  isTakeable: 1
+  pickUpSound: {fileID: 8300000, guid: a4a9327e98855524c846cc8e2f559e96, type: 3}
+  externHull: {fileID: 120638, guid: f8efad34b6fb67641a44679362c8f942, type: 3}
+  externHullRotSpeed: 65
+  externHullIsReverse: 0
+  externHullMaterial: {fileID: 2100000, guid: 977b6d7a9501307478a6fab8d0743ae9, type: 2}
+  internHull: {fileID: 116466, guid: 149a83b3d7325574581f93b92f7e7746, type: 3}
+  internHullRotSpeed: 65
+  internHullIsReverse: 1
+  internHullMaterial: {fileID: 2100000, guid: 78b3d2607f4c8c843b131bd40468e68a, type: 2}
+  effect: {fileID: 100000, guid: 54d548b1a922d54449e2bd5424597d57, type: 3}
+  effectRotSpeed: 65
+  effectIsReverse: 0
+  item: {fileID: 100000, guid: d775a3112327f234c884d35e82436c83, type: 3}
+  itemRotSpeed: 65
+  itemIsReverse: 0
+  itemMaterial: {fileID: 2100000, guid: cc5b20b4307519e40bdcc830c0b39d44, type: 2}
+  lightColor: {r: 0.38235295, g: 0.41217044, b: 1, a: 1}
+  lightIntensity: 3
+  lightRange: 4
 --- !u!1001 &1236527002
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35834,6 +36426,83 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4603497549658392, guid: 37e77a47218919148afc5a8cd332b7c0, type: 3}
   m_PrefabInstance: {fileID: 1532485621}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1535730909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1535730910}
+  - component: {fileID: 1535730912}
+  - component: {fileID: 1535730911}
+  m_Layer: 0
+  m_Name: PowerUp7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1535730910
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535730909}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -77.9978, y: 1.6999502, z: 22.736382}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1075551805}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1535730911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535730909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc423992dbbf6c469f5c767af90da51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1535730912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535730909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51803f42c5ad6ed469cd71e4b4e0dec0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpName: Money
+  isTakeable: 1
+  pickUpSound: {fileID: 8300000, guid: a4a9327e98855524c846cc8e2f559e96, type: 3}
+  externHull: {fileID: 120638, guid: f8efad34b6fb67641a44679362c8f942, type: 3}
+  externHullRotSpeed: 65
+  externHullIsReverse: 0
+  externHullMaterial: {fileID: 2100000, guid: 977b6d7a9501307478a6fab8d0743ae9, type: 2}
+  internHull: {fileID: 116466, guid: 149a83b3d7325574581f93b92f7e7746, type: 3}
+  internHullRotSpeed: 65
+  internHullIsReverse: 1
+  internHullMaterial: {fileID: 2100000, guid: 78b3d2607f4c8c843b131bd40468e68a, type: 2}
+  effect: {fileID: 100000, guid: 54d548b1a922d54449e2bd5424597d57, type: 3}
+  effectRotSpeed: 65
+  effectIsReverse: 0
+  item: {fileID: 100000, guid: d775a3112327f234c884d35e82436c83, type: 3}
+  itemRotSpeed: 65
+  itemIsReverse: 0
+  itemMaterial: {fileID: 2100000, guid: cc5b20b4307519e40bdcc830c0b39d44, type: 2}
+  lightColor: {r: 0.38235295, g: 0.41217044, b: 1, a: 1}
+  lightIntensity: 3
+  lightRange: 4
 --- !u!1001 &1536088738
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44180,6 +44849,83 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4147810860854550, guid: d9b3137296eb11547a955d82c9ffcc3b, type: 3}
   m_PrefabInstance: {fileID: 1912759114}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1913763633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1913763634}
+  - component: {fileID: 1913763636}
+  - component: {fileID: 1913763635}
+  m_Layer: 0
+  m_Name: PowerUp8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1913763634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913763633}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -107.98781, y: -0.55704975, z: 22.142382}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1075551805}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1913763635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913763633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc423992dbbf6c469f5c767af90da51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1913763636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913763633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51803f42c5ad6ed469cd71e4b4e0dec0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpName: Money
+  isTakeable: 1
+  pickUpSound: {fileID: 8300000, guid: a4a9327e98855524c846cc8e2f559e96, type: 3}
+  externHull: {fileID: 120638, guid: f8efad34b6fb67641a44679362c8f942, type: 3}
+  externHullRotSpeed: 65
+  externHullIsReverse: 0
+  externHullMaterial: {fileID: 2100000, guid: 977b6d7a9501307478a6fab8d0743ae9, type: 2}
+  internHull: {fileID: 116466, guid: 149a83b3d7325574581f93b92f7e7746, type: 3}
+  internHullRotSpeed: 65
+  internHullIsReverse: 1
+  internHullMaterial: {fileID: 2100000, guid: 78b3d2607f4c8c843b131bd40468e68a, type: 2}
+  effect: {fileID: 100000, guid: 54d548b1a922d54449e2bd5424597d57, type: 3}
+  effectRotSpeed: 65
+  effectIsReverse: 0
+  item: {fileID: 100000, guid: d775a3112327f234c884d35e82436c83, type: 3}
+  itemRotSpeed: 65
+  itemIsReverse: 0
+  itemMaterial: {fileID: 2100000, guid: cc5b20b4307519e40bdcc830c0b39d44, type: 2}
+  lightColor: {r: 0.38235295, g: 0.41217044, b: 1, a: 1}
+  lightIntensity: 3
+  lightRange: 4
 --- !u!1001 &1914627873
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44887,6 +45633,83 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4218946168670328, guid: 8ac6c8f32a8b3114f8c36c2815f09d4f, type: 3}
   m_PrefabInstance: {fileID: 1934294331}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1936288604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1936288605}
+  - component: {fileID: 1936288607}
+  - component: {fileID: 1936288606}
+  m_Layer: 0
+  m_Name: PowerUp2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1936288605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936288604}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -90.09781, y: 1.6999502, z: 22.736382}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1075551805}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1936288606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936288604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc423992dbbf6c469f5c767af90da51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1936288607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936288604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51803f42c5ad6ed469cd71e4b4e0dec0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpName: Money
+  isTakeable: 1
+  pickUpSound: {fileID: 8300000, guid: a4a9327e98855524c846cc8e2f559e96, type: 3}
+  externHull: {fileID: 120638, guid: f8efad34b6fb67641a44679362c8f942, type: 3}
+  externHullRotSpeed: 65
+  externHullIsReverse: 0
+  externHullMaterial: {fileID: 2100000, guid: 977b6d7a9501307478a6fab8d0743ae9, type: 2}
+  internHull: {fileID: 116466, guid: 149a83b3d7325574581f93b92f7e7746, type: 3}
+  internHullRotSpeed: 65
+  internHullIsReverse: 1
+  internHullMaterial: {fileID: 2100000, guid: 78b3d2607f4c8c843b131bd40468e68a, type: 2}
+  effect: {fileID: 100000, guid: 54d548b1a922d54449e2bd5424597d57, type: 3}
+  effectRotSpeed: 65
+  effectIsReverse: 0
+  item: {fileID: 100000, guid: d775a3112327f234c884d35e82436c83, type: 3}
+  itemRotSpeed: 65
+  itemIsReverse: 0
+  itemMaterial: {fileID: 2100000, guid: cc5b20b4307519e40bdcc830c0b39d44, type: 2}
+  lightColor: {r: 0.38235295, g: 0.41217044, b: 1, a: 1}
+  lightIntensity: 3
+  lightRange: 4
 --- !u!1001 &1936884819
 PrefabInstance:
   m_ObjectHideFlags: 0
